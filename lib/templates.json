@@ -1,0 +1,65 @@
+{
+  
+  "code-interpreter-v1": {
+    "name": "Python data analyst",
+    "lib": ["python", "jupyter", "numpy", "pandas", "matplotlib", "seaborn", "plotly"],
+    "file": "script.py",
+    "instructions": "Runs code as a Jupyter notebook cell. Strong data analysis angle. Can use complex visualisation to explain results.",
+    "port": null
+  },
+"nextjs-developer": {
+  "name": "Next.js developer",
+  "lib": ["next@14.2.5", "typescript", "@types/node", "@types/react", "@types/react-dom", "postcss", "tailwindcss", "shadcn"],
+  "file": "app/page.tsx",
+  "instructions": "Create a modern responsive UI using Next.js 14 with the App Router. Do not use any additional files or components — all the code must be fully written inside a single file: app/page.tsx. Use Tailwind CSS classes for styling and structure everything in this one file only.",
+  "port": 3000
+},
+
+
+  "vue-developer": {
+    "name": "Vue.js developer",
+    "lib": ["vue@latest", "nuxt@3.13.0", "tailwindcss"],
+    "file": "app.vue",
+    "instructions": "A Vue.js 3+ app that reloads automatically. Only when asked specifically for a Vue app.",
+    "port": 3000
+  },
+  "streamlit-developer": {
+    "name": "Streamlit developer",
+    "lib": [
+      "streamlit",
+      "pandas",
+      "numpy",
+      "matplotlib",
+      "request",
+      "seaborn",
+      "plotly"
+    ],
+    "file": "app.py",
+    "instructions": "A streamlit app that reloads automatically.",
+    "port": 8501
+  },
+  "gradio-developer": {
+    "name": "Gradio developer",
+    "lib": [
+      "gradio",
+      "pandas",
+      "numpy",
+      "matplotlib",
+      "request",
+      "seaborn",
+      "plotly"
+    ],
+    "file": "app.py",
+    "instructions": "A gradio app. Gradio Blocks/Interface should be called demo.",
+    "port": 7860
+  },
+ "html-css": {
+  "name": "HTML & CSS",
+  "lib": [],
+  "file": "index.html",
+  "instructions": "Write a complete webpage using only HTML and CSS. Do not use JS or frameworks. All content must be inside a single index.html file.",
+  "port": 3000
+}
+
+
+}

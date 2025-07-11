@@ -1,0 +1,11 @@
+{
+  "models": [
+    {
+      "id": "gemini-1.5-flash",
+      "provider": "Gemini",
+      "providerId": "gemini",
+      "name": "Gemini 1.5 Flash",
+      "multiModal": true
+    }
+  ]
+}
