@@ -94,8 +94,9 @@ export function Chat({
       {isLoading && (
         <div className="pixel-message assistant">
           <div className="pixel-text text-xs mb-2 opacity-70">
-            > GEMINI:
-          </div>
+  &gt; GEMINI:
+</div>
+
           <div className="flex items-center gap-2 pixel-text text-xs">
             <div className="w-2 h-2 bg-primary animate-pulse"></div>
             <span>GENERATING CODE...</span>
