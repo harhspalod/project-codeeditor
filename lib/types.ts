@@ -16,6 +16,9 @@ export type ExecutionResultInterpreter = ExecutionResultBase & {
 export type ExecutionResultWeb = ExecutionResultBase & {
   template: Exclude<TemplateId, 'code-interpreter-v1'>
   url: string
+  html?: string // ✅ Add this
+  file?: string
+  title?: string
 }
 
 export type ExecutionResult = ExecutionResultInterpreter | ExecutionResultWeb
